@@ -9,7 +9,7 @@ public class Day04_2 {
         // 1.静态初始化一维数组{10，20，11，35，6}，进行冒泡排序
         /*
         int[] array = {10,20,11,35,6};
-        int index = array[0];
+        int index = 0;
         for (int i = 0;i < array.length-1;i++){
             for (index = array.length-1;index>i;index--){
                 if (array[index]<array[index-1]){
